@@ -96,3 +96,32 @@ footer {
   color: #555;
   font-size: 14px;
 }
+
+/* Center the page instead of full-width stretch */
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Header gets more structure */
+header {
+  background: #ffffff;
+  border-bottom: 2px solid #dddddd;
+  margin-bottom: 16px;
+}
+
+/* Space navigation away from title */
+nav {
+  margin-top: 10px;
+}
+
+/* Add depth to sections */
+section {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* spacing for project links */
+section a {
+  display: inline-block;
+  margin-top: 6px;
+}
