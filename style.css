@@ -125,3 +125,39 @@ section a {
   display: inline-block;
   margin-top: 6px;
 }
+
+/* Header layout */
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Make the name stand out more */
+h1 {
+  font-size: 32px;
+}
+
+/* Sub-title*/
+header p {
+  color: #444;
+  font-size: 16px;
+}
+
+/* nav spacing */
+nav a {
+  margin-bottom: 8px;
+}
+
+
+main {
+  display: grid;
+  gap: 16px;
+  padding-top: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
